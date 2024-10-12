@@ -1,0 +1,58 @@
+/* Products Section */
+.games{
+    padding: 50px 0;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .games {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: calc(25% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .games:hover {
+    transform: translateY(-5px);
+  }
+  
+  .games img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .games h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #0b0b0b;
+  }
+  
+  .games p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .btn {
+    background-color: #2a23e8;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #2a23e8;
+  }
